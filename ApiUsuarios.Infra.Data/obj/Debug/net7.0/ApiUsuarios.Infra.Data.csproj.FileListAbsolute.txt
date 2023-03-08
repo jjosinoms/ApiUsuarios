@@ -1,0 +1,15 @@
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Infra.Data.deps.json
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Infra.Data.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Infra.Data.pdb
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Domain.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Domain.pdb
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.csproj.AssemblyReference.cache
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.AssemblyInfoInputs.cache
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.AssemblyInfo.cs
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.csproj.CoreCompileInputs.cache
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.csproj.CopyComplete
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\refint\ApiUsuarios.Infra.Data.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.pdb
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ref\ApiUsuarios.Infra.Data.dll
