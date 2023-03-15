@@ -14,24 +14,23 @@ namespace ApiUsuarios.Infra.Data.Contexts
     /// </summary>
     public class DataContext : DbContext
     {
-        //método para conexao com banco de dados ou InMemory
+        //método para conexão com o banco de dados ou InMemory
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseInMemoryDatabase(databaseName: "BD_ApiUsuarios");
-            //optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BD_ApiProdutos;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            //optionsBuilder.UseInMemoryDatabase(databaseName: "BD_ApiUsuarios");
+            optionsBuilder.UseSqlServer(@"Data Source=SQL5101.site4now.net;Initial Catalog=db_a96270_bdapiusuarios;User Id=db_a96270_bdapiusuarios_admin;Password=j05jms07");
         }
 
-        
-        // Método para adicionarmos as classes de mapeamento do projeto  
+        //método para adicionarmos as classes de mapeamento
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UsuarioMap());
         }
 
-
-        // Propriedades para forneces os métodos de CRUD para Usuario
+        //Propriedade DbSet para cada entidade (CRUD)
         public DbSet<Usuario> Usuario { get; set; }
-
-
     }
 }
+
+
+

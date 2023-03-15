@@ -1,3 +1,15 @@
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\bin\Debug\net7.0\ApiUsuarios.Domain.deps.json
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\bin\Debug\net7.0\ApiUsuarios.Domain.dll
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\bin\Debug\net7.0\ApiUsuarios.Domain.pdb
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\obj\Debug\net7.0\ApiUsuarios.Domain.csproj.AssemblyReference.cache
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\obj\Debug\net7.0\ApiUsuarios.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\obj\Debug\net7.0\ApiUsuarios.Domain.AssemblyInfoInputs.cache
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\obj\Debug\net7.0\ApiUsuarios.Domain.AssemblyInfo.cs
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\obj\Debug\net7.0\ApiUsuarios.Domain.csproj.CoreCompileInputs.cache
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\obj\Debug\net7.0\ApiUsuarios.Domain.dll
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\obj\Debug\net7.0\refint\ApiUsuarios.Domain.dll
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\obj\Debug\net7.0\ApiUsuarios.Domain.pdb
+C:\aula2501\ApiUsuarios\ApiUsuarios.Domain\obj\Debug\net7.0\ref\ApiUsuarios.Domain.dll
 F:\APIs\ApiUsuarios\ApiUsuarios.Domain\bin\Debug\net7.0\ApiUsuarios.Domain.deps.json
 F:\APIs\ApiUsuarios\ApiUsuarios.Domain\bin\Debug\net7.0\ApiUsuarios.Domain.dll
 F:\APIs\ApiUsuarios\ApiUsuarios.Domain\bin\Debug\net7.0\ApiUsuarios.Domain.pdb

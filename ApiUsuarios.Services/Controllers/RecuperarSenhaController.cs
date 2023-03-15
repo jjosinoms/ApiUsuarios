@@ -1,4 +1,5 @@
-﻿using ApiUsuarios.Services.Models;
+﻿using ApiUsuarios.Application.Interfaces;
+using ApiUsuarios.Application.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,10 +9,37 @@ namespace ApiUsuarios.Services.Controllers
     [ApiController]
     public class RecuperarSenhaController : ControllerBase
     {
-        [HttpPost]
-        public IActionResult Post(RecuperarSenhaPostModel model)
+        //atributo
+        private readonly IUsuarioAppService? _usuarioAppService;
+
+        //construtor para injeção de dependência
+        public RecuperarSenhaController(IUsuarioAppService? usuarioAppService)
         {
-            return Ok();
+            _usuarioAppService = usuarioAppService;
+        }
+
+        [HttpPost]
+        public IActionResult Post(RecuperarSenhaModel model)
+        {
+            try
+            {
+                var usuario = _usuarioAppService.RecuperarSenha(model);
+                return StatusCode(200, new 
+                { 
+                    mensagem = "Recuperação de senha realizado com sucesso.",
+                    usuario
+                });
+            }
+            catch(ArgumentException e)
+            {
+                //HTTP 400 - BAD REQUEST
+                return StatusCode(400, new { mensagem = e.Message });
+            }
+            catch(Exception e)
+            {
+                //HTTP 500 - INTERNAL SERVER ERROR
+                return StatusCode(500, new { mensagem = e.Message });
+            }
         }
     }
 }

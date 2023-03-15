@@ -1,6 +1,7 @@
 ﻿using ApiUsuarios.Domain.Entities;
 using ApiUsuarios.Domain.Interfaces.Repositories;
 using ApiUsuarios.Infra.Data.Contexts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,11 +24,22 @@ namespace ApiUsuarios.Infra.Data.Repositories
             }
         }
 
+        public void Update(Usuario usuario)
+        {
+            using (var dataContext = new DataContext())
+            {
+                dataContext.Entry(usuario).State = EntityState.Modified;
+                dataContext.SaveChanges();
+            }
+        }
+
         public Usuario? Get(string email)
         {
             using (var dataContext = new DataContext())
             {
-                return dataContext.Usuario.Where(u => u.Email.Equals(email)).FirstOrDefault();
+                return dataContext.Usuario
+                    .Where(u => u.Email.Equals(email))
+                    .FirstOrDefault();
             }
         }
 
@@ -35,8 +47,10 @@ namespace ApiUsuarios.Infra.Data.Repositories
         {
             using (var dataContext = new DataContext())
             {
-                return dataContext.Usuario.Where(u => u.Email.Equals(email) && u.Senha.Equals(senha)).FirstOrDefault();
+                return dataContext.Usuario
+                    .Where(u => u.Email.Equals(email) && u.Senha.Equals(senha))
+                    .FirstOrDefault();
             }
-        }
+        }        
     }
 }

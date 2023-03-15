@@ -12,10 +12,19 @@ namespace ApiUsuarios.Domain.Interfaces.Services
     /// </summary>
     public interface IUsuarioDomainService
     {
+        /// <summary>
+        /// Método para cadastro do usuário do sistema
+        /// </summary>
         void CriarUsuario(Usuario usuario);
+
+        /// <summary>
+        /// Método para obter e autenticar um usuário
+        /// </summary>
         Usuario Autenticar(string email, string senha);
-        void RecuperarSenha(string email);
 
-
+        /// <summary>
+        /// Método para recuperar e gerar uma nova senha para o usuário
+        /// </summary>
+        Usuario RecuperarSenha(string email);
     }
 }

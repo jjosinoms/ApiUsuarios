@@ -1,0 +1,15 @@
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\bin\Release\net7.0\ApiUsuarios.Infra.Messages.deps.json
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\bin\Release\net7.0\ApiUsuarios.Infra.Messages.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\bin\Release\net7.0\ApiUsuarios.Infra.Messages.pdb
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\bin\Release\net7.0\ApiUsuarios.Domain.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\bin\Release\net7.0\ApiUsuarios.Domain.pdb
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\ApiUsuarios.Infra.Messages.csproj.AssemblyReference.cache
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\ApiUsuarios.Infra.Messages.GeneratedMSBuildEditorConfig.editorconfig
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\ApiUsuarios.Infra.Messages.AssemblyInfoInputs.cache
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\ApiUsuarios.Infra.Messages.AssemblyInfo.cs
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\ApiUsuarios.Infra.Messages.csproj.CoreCompileInputs.cache
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\ApiUsuarios.Infra.Messages.csproj.CopyComplete
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\ApiUsuarios.Infra.Messages.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\refint\ApiUsuarios.Infra.Messages.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\ApiUsuarios.Infra.Messages.pdb
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Messages\obj\Release\net7.0\ref\ApiUsuarios.Infra.Messages.dll

@@ -15,7 +15,7 @@ namespace ApiUsuarios.Services.Security
         /// <summary>
         /// Armazenar a chave secreta antifalsificação do token
         /// </summary>
-        public const string? SecretKey = "81A5374D-464E-4900-937E-A3CDFF2FB66D";
+        public const string? SecretKey = "81A5374D-464E-4900-937E-A3CDFF2FB66D";        
 
         /// <summary>
         /// Método para gerar o token
@@ -44,6 +44,3 @@ namespace ApiUsuarios.Services.Security
         }
     }
 }
-
-
-

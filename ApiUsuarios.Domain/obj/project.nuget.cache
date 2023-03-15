@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y43itdIK14BdXR9TDu5LZEgzxp6MkHAX4vugUPVeQprYK/tgCu62MOgyEDbFgOF+xx2xehn+9rzDCjtrUdVVwg==",
+  "dgSpecHash": "nK1v3jVkYBd0yLXNbKoS6l+cX3aeHuirgEjTuQcH0GDLKBmy10znIJGjkMeFgNBkTXmps57YkEBng8nXHh1EAw==",
   "success": true,
   "projectFilePath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain\\ApiUsuarios.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jjosi\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

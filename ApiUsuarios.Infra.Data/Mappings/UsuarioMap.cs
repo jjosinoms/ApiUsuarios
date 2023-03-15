@@ -10,19 +10,19 @@ using System.Threading.Tasks;
 namespace ApiUsuarios.Infra.Data.Mappings
 {
     /// <summary>
-    /// Classe de mapeamento ORM para a entidade Usuario
+    /// Classe de mapeamento ORM para a entidade Usuário
     /// </summary>
     public class UsuarioMap : IEntityTypeConfiguration<Usuario>
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
         {
-            //nome da tabela
+            //nome da tabela do banco de dados
             builder.ToTable("USUARIO");
 
-            //campo chave primaria
+            //campo chave primária
             builder.HasKey(u => u.IdUsuario);
 
-            //mapeamento dos ampos
+            //mapeamento dos campos
             builder.Property(u => u.IdUsuario)
                 .HasColumnName("IDUSUARIO");
 
@@ -35,6 +35,7 @@ namespace ApiUsuarios.Infra.Data.Mappings
                 .HasColumnName("EMAIL")
                 .HasMaxLength(100)
                 .IsRequired();
+
             builder.HasIndex(u => u.Email)
                 .IsUnique();
 
@@ -46,7 +47,6 @@ namespace ApiUsuarios.Infra.Data.Mappings
             builder.Property(u => u.DataHoraCriacao)
                 .HasColumnName("DATAHORACRIACAO")
                 .IsRequired();
-
         }
     }
 }

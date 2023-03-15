@@ -34,6 +34,3 @@ namespace ApiUsuarios.Services.Security
         }
     }
 }
-
-
-
