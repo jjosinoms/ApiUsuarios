@@ -3,5 +3,6 @@
   "ApiUsuarios.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain",
   "ApiUsuarios.Infra.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.Data",
   "ApiUsuarios.Infra.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.Messages",
+  "ApiUsuarios.Infra.RabbitMQ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.RabbitMQ",
   "ApiUsuarios.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Services"
 }

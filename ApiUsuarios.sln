@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiUsuarios.Application", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - TDD", "3 - TDD", "{52B9D883-875A-433C-848C-2FFCC337420B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUsuarios.Tests", "ApiUsuarios.Tests\ApiUsuarios.Tests.csproj", "{834B99AD-3049-4CD9-B34E-E04EB81A9B73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiUsuarios.Tests", "ApiUsuarios.Tests\ApiUsuarios.Tests.csproj", "{834B99AD-3049-4CD9-B34E-E04EB81A9B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUsuarios.Infra.RabbitMQ", "ApiUsuarios.Infra.RabbitMQ\ApiUsuarios.Infra.RabbitMQ.csproj", "{5FD3B260-7DC8-4126-817E-8A07AA97AE0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{834B99AD-3049-4CD9-B34E-E04EB81A9B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{834B99AD-3049-4CD9-B34E-E04EB81A9B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{834B99AD-3049-4CD9-B34E-E04EB81A9B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD3B260-7DC8-4126-817E-8A07AA97AE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD3B260-7DC8-4126-817E-8A07AA97AE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD3B260-7DC8-4126-817E-8A07AA97AE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD3B260-7DC8-4126-817E-8A07AA97AE0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{D17530EA-5657-45F0-A64E-0A1B5D8B6F90} = {30C045CB-0DB2-4CA9-B827-D83D480367AF}
 		{C1E9E2BE-49A1-45A9-B242-9477979B66BD} = {461A2396-16B5-444B-842C-F8CD647C7495}
 		{834B99AD-3049-4CD9-B34E-E04EB81A9B73} = {52B9D883-875A-433C-848C-2FFCC337420B}
+		{5FD3B260-7DC8-4126-817E-8A07AA97AE0F} = {30C045CB-0DB2-4CA9-B827-D83D480367AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE73C0CC-1916-4F99-91D2-987D4EEDB88A}

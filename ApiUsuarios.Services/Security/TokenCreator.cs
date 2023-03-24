@@ -31,7 +31,7 @@ namespace ApiUsuarios.Services.Security
                 Subject = new ClaimsIdentity(new Claim[] { new Claim(ClaimTypes.Name, emailUsuario) }),
 
                 //definindo o tempo de validade para expiração do token
-                Expires = DateTime.Now.AddHours(_expirationInHours),
+                Expires = DateTime.UtcNow.AddHours(_expirationInHours),
 
                 //gravando a chave secreta antifalsificação
                 SigningCredentials = new SigningCredentials

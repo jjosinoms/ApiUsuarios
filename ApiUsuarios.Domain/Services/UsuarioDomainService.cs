@@ -1,8 +1,10 @@
 ﻿using ApiUsuarios.Domain.Entities;
-using ApiUsuarios.Domain.Interfaces.Messages;
+using ApiUsuarios.Domain.Interfaces.Producers;
 using ApiUsuarios.Domain.Interfaces.Repositories;
 using ApiUsuarios.Domain.Interfaces.Services;
+using ApiUsuarios.Domain.Models;
 using Bogus;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,13 +18,13 @@ namespace ApiUsuarios.Domain.Services
     {
         //atributos
         private readonly IUsuarioRepository? _usuarioRepository;
-        private readonly IEmailMessage? _emailMessage;
+        private readonly IMessageQueueProducer? _messageQueueProducer;
 
         //método construtor utilizado para inicializar o atributo
-        public UsuarioDomainService(IUsuarioRepository? usuarioRepository, IEmailMessage? emailMessage)
+        public UsuarioDomainService(IUsuarioRepository? usuarioRepository, IMessageQueueProducer? messageQueueProducer)
         {
             _usuarioRepository = usuarioRepository;
-            _emailMessage = emailMessage;
+            _messageQueueProducer = messageQueueProducer;
         }
 
         public void CriarUsuario(Usuario usuario)
@@ -74,8 +76,16 @@ namespace ApiUsuarios.Domain.Services
                     <p>Equipe COTI Informática</p>
                 ";
 
-                //realizando o envio do email
-                _emailMessage.Send(usuario.Email, assunto, corpo);
+                //dados que serão enviados para a mensageria
+                var model = new MessageModel
+                {
+                    EmailDest = usuario.Email,
+                    Assunto = assunto,
+                    Conteudo = corpo
+                };
+
+                //enviar para a fila da mensageria
+                _messageQueueProducer.Add(JsonConvert.SerializeObject(model));
 
                 //atualizando a senha do usuário no banco de dados
                 usuario.Senha = EncriptarSenha(novaSenha);

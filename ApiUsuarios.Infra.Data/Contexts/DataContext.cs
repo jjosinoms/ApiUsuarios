@@ -18,7 +18,7 @@ namespace ApiUsuarios.Infra.Data.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseInMemoryDatabase(databaseName: "BD_ApiUsuarios");
-            optionsBuilder.UseSqlServer(@"Data Source=SQL5101.site4now.net;Initial Catalog=db_a96270_bdapiusuarios;User Id=db_a96270_bdapiusuarios_admin;Password=j05jms07");
+            optionsBuilder.UseSqlServer(@"Data Source=SQL5101.site4now.net;Initial Catalog=db_a96272_bdapiusuarios;User Id=db_a96272_bdapiusuarios_admin;Password=coti1234");
         }
 
         //método para adicionarmos as classes de mapeamento
@@ -31,6 +31,3 @@ namespace ApiUsuarios.Infra.Data.Contexts
         public DbSet<Usuario> Usuario { get; set; }
     }
 }
-
-
-

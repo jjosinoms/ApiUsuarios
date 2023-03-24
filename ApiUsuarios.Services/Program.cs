@@ -1,11 +1,12 @@
 using ApiUsuarios.Application.Interfaces;
 using ApiUsuarios.Application.Services;
-using ApiUsuarios.Domain.Interfaces.Messages;
+using ApiUsuarios.Domain.Interfaces.Producers;
 using ApiUsuarios.Domain.Interfaces.Repositories;
 using ApiUsuarios.Domain.Interfaces.Services;
 using ApiUsuarios.Domain.Services;
 using ApiUsuarios.Infra.Data.Repositories;
 using ApiUsuarios.Infra.Messages.Services;
+using ApiUsuarios.Infra.RabbitMQ.Producers;
 using ApiUsuarios.Services.Security;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,7 +25,7 @@ JwtConfiguration.Configure(builder);
 builder.Services.AddTransient<IUsuarioAppService, UsuarioAppService>();
 builder.Services.AddTransient<IUsuarioDomainService, UsuarioDomainService>();
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
-builder.Services.AddTransient<IEmailMessage, EmailMessage>();
+builder.Services.AddTransient<IMessageQueueProducer, MessageQueueProducer>();
 
 //configurar o AutoMapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -57,6 +58,3 @@ app.UseCors("CorsSetup"); //ativando o CORS
 app.Run();
 
 public partial class Program { }
-
-
-

@@ -13,7 +13,10 @@ C:\aula2501\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infr
 C:\aula2501\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\refint\ApiUsuarios.Infra.Data.dll
 C:\aula2501\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.pdb
 C:\aula2501\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ref\ApiUsuarios.Infra.Data.dll
+C:\aula2501\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Infra.Data.runtimeconfig.json
+C:\aula2501\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.genruntimeconfig.cache
 F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Infra.Data.deps.json
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Infra.Data.runtimeconfig.json
 F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Infra.Data.dll
 F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Infra.Data.pdb
 F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Domain.dll
@@ -27,6 +30,5 @@ F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Da
 F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.dll
 F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\refint\ApiUsuarios.Infra.Data.dll
 F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.pdb
-F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ref\ApiUsuarios.Infra.Data.dll
-F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\bin\Debug\net7.0\ApiUsuarios.Infra.Data.runtimeconfig.json
 F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ApiUsuarios.Infra.Data.genruntimeconfig.cache
+F:\APIs\ApiUsuarios\ApiUsuarios.Infra.Data\obj\Debug\net7.0\ref\ApiUsuarios.Infra.Data.dll

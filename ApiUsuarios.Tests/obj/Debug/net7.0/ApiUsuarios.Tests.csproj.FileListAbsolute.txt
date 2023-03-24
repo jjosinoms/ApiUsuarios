@@ -464,16 +464,16 @@ C:\aula2501\ApiUsuarios\ApiUsuarios.Tests\obj\Debug\net7.0\ApiUsuarios.Tests.pdb
 C:\aula2501\ApiUsuarios\ApiUsuarios.Tests\obj\Debug\net7.0\ApiUsuarios.Tests.genruntimeconfig.cache
 C:\aula2501\ApiUsuarios\ApiUsuarios.Tests\obj\Debug\net7.0\ref\ApiUsuarios.Tests.dll
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\CoverletSourceRootsMapping
+F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Services.deps.json
+F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Services.runtimeconfig.json
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\appsettings.Development.json
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\appsettings.json
+F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Services.exe
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\testhost.exe
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\testhost.dll
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\xunit.runner.reporters.netcoreapp10.dll
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\xunit.runner.utility.netcoreapp10.dll
-F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Services.deps.json
-F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Services.runtimeconfig.json
-F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Services.exe
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\MvcTestingAppManifest.json
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Tests.deps.json
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Tests.runtimeconfig.json
@@ -931,3 +931,7 @@ F:\APIs\ApiUsuarios\ApiUsuarios.Tests\obj\Debug\net7.0\refint\ApiUsuarios.Tests.
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\obj\Debug\net7.0\ApiUsuarios.Tests.pdb
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\obj\Debug\net7.0\ApiUsuarios.Tests.genruntimeconfig.cache
 F:\APIs\ApiUsuarios\ApiUsuarios.Tests\obj\Debug\net7.0\ref\ApiUsuarios.Tests.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\RabbitMQ.Client.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\RabbitMQ.Client.Core.DependencyInjection.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Infra.RabbitMQ.dll
+F:\APIs\ApiUsuarios\ApiUsuarios.Tests\bin\Debug\net7.0\ApiUsuarios.Infra.RabbitMQ.pdb

@@ -1,5 +1,4 @@
-﻿using ApiUsuarios.Domain.Interfaces.Messages;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ApiUsuarios.Infra.Messages.Services
 {
-    public class EmailMessage : IEmailMessage
+    public class EmailMessage
     {
         //atributos
         private const string? _conta = "csharpcoti@outlook.com";

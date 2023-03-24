@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.RabbitMQ\\ApiUsuarios.Infra.RabbitMQ.csproj": {}
+  },
+  "projects": {
+    "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain\\ApiUsuarios.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain\\ApiUsuarios.Domain.csproj",
+        "projectName": "ApiUsuarios.Domain",
+        "projectPath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain\\ApiUsuarios.Domain.csproj",
+        "packagesPath": "C:\\Users\\jjosi\\.nuget\\packages\\",
+        "outputPath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jjosi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.Messages\\ApiUsuarios.Infra.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.Messages\\ApiUsuarios.Infra.Messages.csproj",
+        "projectName": "ApiUsuarios.Infra.Messages",
+        "projectPath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.Messages\\ApiUsuarios.Infra.Messages.csproj",
+        "packagesPath": "C:\\Users\\jjosi\\.nuget\\packages\\",
+        "outputPath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jjosi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain\\ApiUsuarios.Domain.csproj": {
+                "projectPath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain\\ApiUsuarios.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.RabbitMQ\\ApiUsuarios.Infra.RabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.RabbitMQ\\ApiUsuarios.Infra.RabbitMQ.csproj",
+        "projectName": "ApiUsuarios.Infra.RabbitMQ",
+        "projectPath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.RabbitMQ\\ApiUsuarios.Infra.RabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\jjosi\\.nuget\\packages\\",
+        "outputPath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.RabbitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jjosi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain\\ApiUsuarios.Domain.csproj": {
+                "projectPath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Domain\\ApiUsuarios.Domain.csproj"
+              },
+              "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.Messages\\ApiUsuarios.Infra.Messages.csproj": {
+                "projectPath": "F:\\APIs\\ApiUsuarios\\ApiUsuarios.Infra.Messages\\ApiUsuarios.Infra.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "RabbitMQ.Client.Core.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
